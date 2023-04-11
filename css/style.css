@@ -12,10 +12,24 @@
     flex-wrap: wrap;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .main-container{
-    height: 100vh;
+    height: calc( 100vh - 100px);
 }
 
 div.content img{
     width: calc( 100% / 7);
+}
+
+header{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: #1e1e1e;
+    color: white;
 }
