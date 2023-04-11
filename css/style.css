@@ -11,6 +11,8 @@ body{
     font-family: 'Cabin', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 header{
@@ -23,6 +25,10 @@ header{
     color: white;
 }
 
+header nav{
+    height: 100%;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -33,7 +39,7 @@ ul{
 }
 
 i{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .flex{
@@ -43,6 +49,7 @@ i{
 .flex-between{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex-wrap{
@@ -50,10 +57,19 @@ i{
     flex-wrap: wrap;
 }
 
+.container{
+    margin: 0 auto;
+}
 .centered-items{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.end-btn{
+    height: 100%;
+    background-color: #212021;
+    text-align: center;
 }
 
 .main-container{
@@ -62,6 +78,7 @@ i{
 
 header nav ul li{
     margin-right: 15px;
+    text-align: center;
 }
 
 div.content img{
