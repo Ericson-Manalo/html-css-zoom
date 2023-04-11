@@ -53,6 +53,12 @@ img{
     width: 170px;
 }
 
+footer{
+    position: fixed;
+    top: 0;
+    right: 5px;
+}
+
 .flex{
     display: flex;
 }
@@ -68,9 +74,9 @@ img{
 }
 
 .main-container{
-    height: calc( 100vh - 100px);
+    height: calc(( 100vh - 100px) - 50px);
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 70px auto 0;
 }
 
 .flex-wrap{
@@ -106,9 +112,22 @@ img{
     bottom: 0;
 }
 
+
+.card-cover{
+    margin-bottom: 4px;
+}
+
 header nav ul li{
     margin-right: 15px;
     text-align: center;
+}
+
+ul.upper-logo li{
+    background-color: grey;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 
