@@ -1,4 +1,3 @@
-
 /*RESET*/
 
 *{
@@ -29,10 +28,13 @@ header{
 
 main{
     color: white;
+    height: calc( 100vh - 120px);
+    margin: 70px auto 0;
 }
 
 header nav{
     height: 100%;
+
 }
 
 a{
@@ -48,15 +50,11 @@ i{
     font-size: 20px;
 }
 
-img{
-    height: 120px;
-    width: 170px;
-}
-
 footer{
     position: fixed;
     top: 0;
     right: 5px;
+    height: 50px;
 }
 
 .flex{
@@ -73,16 +71,9 @@ footer{
     position: relative;
 }
 
-.main-container{
-    height: calc(( 100vh - 100px) - 50px);
-    max-width: 1200px;
-    margin: 70px auto 0;
-}
-
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -99,23 +90,24 @@ footer{
     color: red;
 }
 
-.cover{
-    height: calc( 100% / 5);
-    width: calc( 100% / 7);
+div.cover{
+    width: 280px;
+    height: 185px;
+}
+
+div.cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .muted-logo{
     position: absolute;
-    background-color: grey;
-    opacity: 0.7;
+    background-color: #4a4a4a;
     left: 0;
     bottom: 0;
 }
 
-
-.card-cover{
-    margin-bottom: 4px;
-}
 
 header nav ul li{
     margin-right: 15px;
@@ -123,7 +115,7 @@ header nav ul li{
 }
 
 ul.upper-logo li{
-    background-color: grey;
+    background-color: #4a4a4a;
     margin-left: 15px;
     margin-top: 5px;
     padding: 3px;
